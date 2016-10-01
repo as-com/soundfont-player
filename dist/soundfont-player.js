@@ -156,7 +156,7 @@ Soundfont.loadBuffers = function (ctx, name) {
  * @returns {String} the Soundfont file url
  */
 function gleitzUrl (name) {
-  return 'https://cdn.rawgit.com/gleitz/midi-js-Soundfonts/gh-pages/FluidR3_GM/' + name + '-ogg.js'
+  return 'https://gleitz.github.io/midi-js-soundfonts/FluidR3_GM/' + name + '-ogg.js'
 }
 
 if (typeof module === 'object' && module.exports) module.exports = Soundfont
